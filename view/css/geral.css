@@ -1,0 +1,1657 @@
+html,
+body {
+   margin:0px;
+   padding:0px;
+   height:100%;
+   background: url('../img/fundo.png');
+    background-repeat: repeat;
+}
+
+.principal{
+    min-height:100%;
+    position:relative;
+    width: 1000px;
+    height: auto; 
+    margin: 0 auto;
+    overflow:hidden;
+}
+
+a{color: #fff; text-decoration: none;}
+
+.conteudo{
+    float: left;
+    width: 1000px;
+    margin-bottom: 20px;
+}
+
+.vazio{
+    font: 14px Arial, Helvetica, sans-serif !important;
+    color: rgba(51,50,51, 0.6) !important;
+    font-style: italic !important;
+}
+
+.vazio_ex{
+    float: left; 
+    margin-left: 10px;
+    font: 14px Arial, Helvetica, sans-serif !important;
+    color: rgba(51,50,51, 0.6) !important;
+    font-style: italic !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.sem_portfolio,
+.vazio_seguidores{
+    float: left;
+    margin-top: 60px;
+    width: 100% !important;
+    text-align: center !important;
+    font: 14px Arial, Helvetica, sans-serif !important;
+    color: rgba(51,50,51, 0.6) !important;
+    font-style: italic !important;
+}
+
+.sem_portfolio{
+    font-size: 30px !important;
+    margin-bottom: 50px !important;
+}
+
+.datahoraport{
+    float: left;
+    margin-left: 10px; 
+    margin-bottom: 10px;
+    font: 13px Arial, Helvetica, sans-serif !important;
+}
+
+/*----------------------------------------------
+ESTILIZA O AS FRAZES DE QUANDO HÁ ALGO VAZIO:
+PORTFOLIO - FORMAÇÃO - EXPERIENCIA.
+----------------------------------------------*/
+.vazio_experiencia,
+.formacao_inserido,
+.vazio_formacao,
+.portedin{
+    float: left; 
+    width: 100%;
+    margin-top:50px;
+    text-align: center;
+    font: 26px Arial, Helvetica, sans-serif;
+    color: rgba(51,50,51, 0.6) !important;
+}
+
+.vazio_experiencia span:hover,
+.formacao_inserido span:hover,
+.vazio_formacao span:hover,
+.portedin span:hover{
+    color: #ff0;
+}
+/*----------------------------------------------
+ESTILIZA O AS FRAZES DE QUANDO HÁ ALGO VAZIO:
+PORTFOLIO - FORMAÇÃO - EXPERIENCIA.
+----------------------------------------------*/
+
+
+/*----------------------------------------------
+DAS MENSAGEM DE ALERTA.
+----------------------------------------------*/
+.merro,
+.malerta,
+.msucesso,
+.macesseagora{
+	float: left;
+	width: 97.8%;
+        text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 2%; 
+	margin: 0px;
+	margin-top: 1.2%;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-ms-border-radius: 5px 5px 5px 5px;
+	-o-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;	
+}
+
+.msucesso{
+	background: #e5efb0;
+	border: 1px solid #8fad3d;
+	color: #596c26;
+}
+
+.malerta{
+	background: #f9e8a3;
+	border: 1px solid #e2b500;
+	color: #995f5b;
+}
+
+.merro{
+	background: #efcec9;
+	border: 1px solid #ad3f30;
+	color: #943728
+}
+
+.macesseagora{
+	background: rgba(102,204,255,0.4);
+	border: 1px solid rgba(0,0,204,0.5);
+	color: rgba(0,0,204,0.8);
+}
+
+.macesseagora a{color: rgba(0,0,153,0.7);}
+
+.macesseagora a:hover{
+	color: rgba(0,0,153,0.4); 
+}
+
+/*----------------------------------------------
+FIM DAS MENSAGEM DE ALERTA.
+----------------------------------------------*/
+
+/*----------------------------------------------
+LOGIN
+----------------------------------------------*/
+.conteudo_login{
+    float: left;
+    margin-top: 60px;
+    margin-left: 250px;
+    width: 500px;
+    height: auto;
+}
+
+.logotipo{
+    float: left;
+    width: 500px;
+    text-align: center;
+}
+
+.formulario_login{
+    float: left;
+    margin-top: 30px;
+    margin-left: 60px;
+    width: 387px; 
+    height: auto;
+}
+
+.formulario_login input[type="email"],
+.formulario_login input[type="password"]{
+    float: left; 
+    margin-top: 12px;
+    width: 375px; 
+    height: 35px;
+    color: #5f5f5e;
+    padding-left: 10px
+}
+
+.formulario_login input[type="submit"],
+.form_proc_artista input[type="submit"],
+.form_proc_companhia input[type="submit"]{
+    float: right;
+    margin-top: 12px;
+    width: 120px;
+    height: 40px;
+    font: 18px Arial;
+    color: #525251;
+    background: #f4e45e;
+    border: 0px;
+}
+
+.formulario_login input[type="submit"]:hover,
+.form_proc_artista input[type="submit"]:hover,
+.form_proc_companhia input[type="submit"]:hover{
+    background: #f1e57e;
+}
+
+.conteudo_login h1{
+    float: left;
+    margin: 0px;
+    margin-top: 24px;
+    width: 250px;
+    text-align: center;
+    font: 21px Arial;
+    color: rgba(67,67,66,0.4);
+}
+
+.conteudo_login h1:hover{
+    color: rgba(67,67,66,0.8);
+} 
+
+.recemail{
+    float: left; 
+    width: 100%;
+    display: block;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.recemail_none{
+    display:none;
+}
+
+.recuperar_conta{
+    float: left; 
+    width: 100%;
+    text-align: justify;
+    color: rgba(0,0,0,0.7);
+}
+
+.recuperar_conta a{
+    font-weight: bold;
+}
+
+.recuperar_conta a:hover{
+    color: #f4e45e;
+}
+
+.for_recup_conta{
+    float: left; 
+    display: none;
+    width: 100%;
+    margin-top: 70px;
+    text-align: center;
+    color: rgba(0,0,0,0.7);
+    text-align: justify;
+}
+
+.for_recup_conta_block{
+    display: block;
+}
+
+.for_recup_conta input[type="text"],
+.for_recup_conta input[type="email"]{
+    float: left;
+    width: 375px;
+    padding-left: 10px;
+    height: 30px;
+    margin-top:10px;
+    margin-left: 55px;
+}
+
+.for_recup_conta input[type="submit"]{
+    float: right;
+    margin-top: 0px;
+    width: 120px;
+    height: 35px;
+    font: 18px Arial;
+    color: #525251;
+    background: #f4e45e;
+    border: 0px;
+    margin-top:10px;
+    margin-right: 55px;
+}
+
+.for_recup_conta input[type="submit"]:hover{
+    background: #f1e57e;
+}
+
+.pcancelar{
+    float: left;
+    width: 16%;
+    text-align: left;
+    margin-left: 57px;
+    color: rgba(0,0,0,0.7);
+}
+
+.pcancelar:hover{color: rgba(0,0,0,0.9);}
+/*----------------------------------------------
+FIM LOGIN
+----------------------------------------------*/
+
+/*----------------------------------------------
+MENU
+----------------------------------------------*/
+.menu{
+    position: fixed;
+    z-index: 10;
+    float: left;
+    width: 1000px;
+    height: 60px;
+    background: #1e1e1e;
+}
+
+.menu h3{
+    float: left;
+    padding: 0px;
+    color: #c40c10;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2px;
+    margin-left: 10px;
+}
+
+.nome_usu{
+    float: left;
+    padding: 0px;
+    margin-top: 22px;
+    color: #919090;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    margin-left: 130px;
+}
+
+.nome_usu:hover{text-shadow: 2px 0px 30px #fff; }
+
+.menu .menusesub{
+   float: right;
+   width: 110px;
+   height: 60px;
+   background: #1e1e1e;
+   color: #fff;
+   overflow: hidden;
+}
+
+.menu .menusesub:hover{height: auto;}
+
+.mprinc{
+    float: left;
+}
+
+.mensec{
+    float: left;
+    widht: 110px;
+    height: 33px;
+    overflow: hidden;
+}
+
+.mensec:hover{height: auto;}
+
+#m_nome{
+    float: left;
+    width: 110px;
+    text-align: center;
+    padding-top: 21px;
+    padding-bottom: 25px;
+    cursor: pointer;
+}
+
+.mprinc span,
+.mensec span{
+    float: left;
+    width: 110px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.mensec .sub{
+    float: left;
+    width: 110px;
+    text-align: center;
+    background: #9c0404;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.mensec .sub:hover{background: #a50606}
+
+#ef span{font-size: 13px;}
+
+#ef:hover{background: #313131;}
+/*----------------------------------------------
+FIM MENU
+----------------------------------------------*/
+
+/*----------------------------------------------
+BUSCA DO HOME
+----------------------------------------------*/
+.procurarartista,
+.procuraracompanhia{
+    float: left;
+    width: 850px;
+    height: auto;
+    margin-top: 110px;
+    margin-left: 75px;
+}
+
+.procuraracompanhia{margin-top: 30px; margin-bottom: 165px;}
+
+.procurarartista img,
+.procuraracompanhia img{
+    float: left;
+}
+
+.procurarartista h1,
+.procuraracompanhia h1{
+    float: left;
+    width: 780px;
+    margin: 0px;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.form_proc_artista,
+.form_proc_companhia{
+    float: left;
+    width: 850px;
+    margin-top: 15px;
+} 
+
+.form_proc_artista label,
+.form_proc_companhia label{
+    float: left;
+    margin-left: 10px;
+}
+
+.form_proc_artista select,
+.form_proc_companhia select{
+    float: left;
+    color: #1e1e1e;
+    height: 35px;
+}
+
+/*Formatação dos submit, estão jundo a formatação do submit do login*/
+#sub_comp{margin-right: 180px; margin-top: 16px;}
+
+.categoria{width: 210px;}
+.idade{width: 85px;}
+.pais{width:140px;}
+.estado{width: 160px;}
+.cidade{width:200px;}
+
+#l_categoria_b{width: 210px;}
+#l_idade_b{width: 85px;}
+#l_pais_b{width:140px;}
+#l_estado_b{width: 160px;}
+#l_cidade_b{width:200px;}
+/*----------------------------------------------
+BUSCA DO HOME
+----------------------------------------------*/
+
+/*----------------------------------------------
+CADASTRO DE USUÁRIO
+----------------------------------------------*/
+.logotipo_cadastro{
+    float: left; 
+    width: 350px;
+    height: 150px;
+    margin-top: 10px;
+    text-align: center;
+    background: #1e1e1e;
+    border-radius: 10px 100px 10px 100px;
+    -ms-border-radius: 10px 100px 10px 100px;
+    -webkit-border-radius: 10px 100px 10px 100px;
+    -o-border-radius: 10px 100px 10px 100px;
+    -moz-border-radius: 10px 100px 10px 100px;
+}
+
+.logotipo_cadastro img{
+    float: left; 
+    margin-top: 43px;
+    margin-left: 20px;
+}
+
+.txt_bv_cadastro{
+    float: left; 
+    width: 630px;
+    font: 25px Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    padding-top: 15px;
+    text-align: left;
+    margin-bottom: 30px;
+    color: rgba(31,60,60,0.7);
+}
+
+.txt_bv_cadastro span{
+    font-size: 30px;
+    color: #e50717;
+    font-weight: bold;
+}
+
+.env_form_cadastrousu{
+    float: left; 
+    width: 750px; 
+    height: 440px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 125px; 
+    box-shadow: 1px 10px 30px -10px;
+    background: rgba(255,255,255,0.8);
+    border-radius: 40px 40px 40px 40px;
+    -ms-border-radius: 40px 40px 40px 40px;
+    -webkit-border-radius: 40px 40px 40px 40px;
+    -o-border-radius: 40px 40px 40px 40px;
+    -moz-border-radius: 40px 40px 40px 40px;
+}
+
+.env_form_cadastrousu h4{
+    float: left; 
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center; 
+    font: 45px Arial, Helvetica, sans-serif;
+    color: rgba(193,191,192,0.8);
+}
+
+.form_cadastro_usu{
+    float: left; 
+    width: 394px;
+    height: auto;
+    margin-left: 180px;
+}
+
+.form_cadastro_usu input[type="text"],
+.form_cadastro_usu input[type="email"],
+.form_cadastro_usu input[type="password"],
+.form_cadastro_usu select{
+    float: left; 
+    width: 380px; 
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 10px;
+    color: #525251;
+}
+
+.form_cadastro_usu select{width: 395px;}
+
+.form_cadastro_usu input[type="reset"]{
+    float: left;
+    width: 120px;
+    height: 40px; 
+    color: #fff;
+    border: 0px;
+    margin-left: 15px;
+    margin-top: 15px;
+    font: 18px Arial, Helvetica, sans-serif;
+    background:  rgba(245,80,91,1);
+}
+
+.form_cadastro_usu input[type="reset"]:hover{background:  rgba(245,80,91,0.8);}
+
+.form_cadastro_usu input[type="submit"]{
+    float: left;
+    width: 230px;
+    height: 40px; 
+    color: #fff;
+    border: 0px;
+    margin-top: 15px;
+    margin-left: 15px;
+    font: 18px Arial, Helvetica, sans-serif;
+    background: rgba(95,80,245,1);
+}
+
+.form_cadastro_usu input[type="submit"]:hover{background: rgba(95,80,245, 0.8);}
+/*----------------------------------------------
+FIM DO CADASTRO DE USUÁRIO
+----------------------------------------------*/
+
+/*----------------------------------------------
+PERFIL
+----------------------------------------------*/
+/*Formatação das partes, que envolve a Pessoa, formatação, contato, experiência*/
+.foto_info_imp,
+.seguindo,
+.seguidores,
+.formacao,
+.contato,
+.experiencias,
+.contato_comp{
+    float: left;
+    background: rgba(255,255,255,0.8);
+    -ms-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -o-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+}
+
+
+.foto_info_imp{
+    width: 1000px;
+    height: 230px;
+    margin-top: 70px;
+}
+
+.foto_perfil{
+    float: left; 
+    width: 200px; 
+    height: 200px;
+    overflow: hidden;
+    border: #fff 3px solid;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.inf_imp_usu{
+    float: left;
+    width: 460px;
+    height: 206px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.inf_imp_usu p{
+    font: 16px Arial, Helvetica, sans-serif;
+    color: rgba(51,50,51, 0.8);
+    padding: 0px;
+    margin-top: -4px;
+}
+
+.inf_imp_usu p:first-child{
+    margin-top: 13px;
+}
+
+.inf_imp_usu p span{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.bt_seguir,
+.bt_dxseguir{
+    float: left;
+    width: 190px;
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-top: 45px;
+    margin-left: 25px;
+    cursor: pointer;
+    background: rgba(212,8,28,1);
+    font: 16px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgba(0,0,0,0.5);
+    -ms-border-radius: 50px 50px 50px 50px;
+    -webkit-border-radius: 50px 50px 50px 50px;
+    -o-border-radius: 50px 50px 50px 50px;
+    -moz-border-radius: 50px 50px 150px 50px; 
+}
+
+.bt_seguir:hover,
+.bt_dxseguir:hover{
+    color: rgba(255,255,255,0.8);
+}
+
+/*--- BOTÃO RECOLHE E EXIBE PORTFOLIO ---*/
+.rec_port_oculto{
+    display: none;
+}
+
+.ex_port_oculto{
+    display: none;
+}
+.rec_port,
+.exi_portf{
+    float: left;
+    width: 190px;
+    text-align: center;
+    display: block;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-top: 30px;
+    margin-left: 25px;
+    cursor: pointer;
+    background: rgba(28,29,29,0.8);
+    font: 16px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgba(0,0,0, 0.7);
+    -ms-border-radius: 50px 50px 50px 50px;
+    -webkit-border-radius: 50px 50px 50px 50px;
+    -o-border-radius: 50px 50px 50px 50px;
+    -moz-border-radius: 50px 50px 150px 50px;
+}
+
+.ex_port_oculto{
+    display: none;
+}
+/*--- FIM BOTÃO RECOLHE E EXIBE PORTFOLIO ---*/
+
+.rec_port:hover,
+.exi_portf:hover{
+    color: rgba(255,255,255, 0.8);
+    background: rgba(28,29,29,0.8);
+}
+
+/*Formatação de titulos de Formação, Contato, Eperiências, seguindo, seguidores*/
+.formacao h4,
+.contato h4,
+.experiencias h4,
+.seguindo h4,
+.seguidores h4,
+.contato_comp h4{
+    float: left;
+    width: 420px;
+    text-align: left;
+    margin: 0px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 10px;
+    font: 27px Arial, Helvetica, sans-serif;
+    color: rgba(255,255,255,0.8);
+    background: rgba(145,144,144,0.6);
+    border-radius: 5px 5px 0px 0px;
+    -ms-border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -o-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+} /* Fim Formatação de titulos de Formação, Contato, Eperiências, seguindo, seguidores*/
+
+.seguindo{
+    width: 490px;
+    height: 200px;
+    margin-top: 17px;
+}
+
+.seguidores{
+    width: 490px;
+    height: 200px;
+    margin-top: 17px;
+    margin-left: 18px;
+}
+
+.seguindo h4,
+.seguidores h4{width: 480px;}
+
+.foto_seguindo,
+.foto_seguidores{
+    float: left; 
+    width: 490px;
+    height: 148px;
+    overflow: scroll;
+    overflow-x:hidden;
+}
+
+.evl_foto_seg{
+    float: left;
+    width: 55px;
+    height: 55px;
+    margin: 6px;
+    overflow: hidden;
+}
+
+.evl_foto_seg img{
+    float: left;
+    width: 55px;
+}
+
+.formacao{
+    width: 490px;
+    height: 340px;
+    margin-top: 17px;
+}
+
+
+.formacao p,
+.contato p,
+.experiencias p,
+.contato_comp p{
+   float: left;
+   margin: 0px;
+   margin-top: 12px;
+   margin-left: 10px;
+   font: 16px Arial, Helvetica, sans-serif;
+   color: rgba(51,50,51, 0.8);
+}
+
+.formacao p{
+    width: 470px;
+    text-align: justify;
+}
+
+.formacao p span,
+.contato p span,
+.experiencias p span,
+.contato_comp p span{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.contato_comp{
+    width: 1000px;
+    height: 340px; 
+    margin-top: 17px;
+}
+
+.contato_comp h4{width: 990px}
+
+.contato_comp p{
+    width: 650px;
+    margin-left: 230px;
+}
+
+.hrs_comp{
+    float: right;
+    width: 470px;
+    margin-right: 260px;
+}
+
+.contato{
+    float: left;
+    width: 490px;
+    height: 340px; 
+    margin-top: 17px;
+    margin-left: 18px;
+}
+
+.formacao h4,
+.contato h4{width: 480px;}
+
+.contato p{
+    width: 470px;
+}
+
+.redes,
+.redes_comp{
+    float: left;
+    width: 380px;
+    margin-top: 22px;
+    margin-left: 40px;
+}
+
+.redes_comp{
+    margin-left: 300px;
+}
+
+.redes_comp img,
+.redes img{
+    float: left;
+    width: 60px;
+    margin-left: 30px;
+    border: #fff 2px solid;
+}
+
+.redes_comp img:hover,
+.redes img:hover{
+    border: #c0c0c0 1px solid;
+}
+
+.hrs{
+    float: left;
+    width: 385px;
+    margin-left:50px;
+}
+
+.experiencias{
+    width: 800px;
+    height: auto;
+    margin-top: 17px;
+    margin-left: 100px;
+}
+
+.experiencias h4{
+    width: 790px;
+}
+
+.env_exp{
+    float: left;
+    width: 765px;
+    margin-top: 12px;
+    margin-left: 12px;
+    border-left: #c40c10 10px solid; 
+    margin-bottom: 20px;
+    background: rgba(204,204,204,0.2);
+}
+
+.experiencias p{
+    width: 760px;
+    margin-left: 5px;
+}
+
+.experiencias p:first-child{
+    margin-top:0px;
+}
+/*----------------------------------------------
+FIM PERFIL
+----------------------------------------------*/
+
+/*----------------------------------------------
+PORTFOLIO
+----------------------------------------------*/
+.porfolio_oculto{
+    display: none;
+} 
+
+.portfolio{
+    float: left;
+    width: 900px;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 17px;
+    display: block;
+    background: rgba(0,0,0, 0.2);
+}
+
+.fotodesc{
+    float: left;
+    width: 860px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 17px;
+}
+
+.foto_port{
+    float: left; 
+    width: 350px;
+    height:auto;
+    border: #fff 3px solid;
+}
+
+.foto_port img{
+    float: left; 
+    width: 350px;
+}
+
+.env_tt_desc{
+    float: left;
+    width: 502px;
+    height: 256px;
+}
+
+.fotodesc h4{
+    float: left; 
+    width: 490px;
+    color: rgba(58,58,58,0.9);
+    margin: 0px;
+    margin-left: 12px;
+    font: 26px Arial, Helvetica, sans-serif; 
+}
+
+.fotodesc p{
+   float: left; 
+   width: 490px;
+   margin-top: 5px;
+   margin-left: 12px; 
+   font: 17px Arial, Helvetica, sans-serif; 
+   text-align: justify;
+   color: rgba(255,255,255,0.9);
+}
+
+/*----------------------------------------------
+FIM PORTFOLIO
+----------------------------------------------*/
+
+/*----------------------------------------------
+ARTISTAS E COMPANHIAS ENCONTRADOS
+----------------------------------------------*/
+.erro_busca{
+    float: left; 
+    width: 100%;
+    margin-top: 120px;
+    text-align: center;
+    color: #a50606;
+    font: 25px Arial, Helvetica, sans-serif;  
+}
+
+.nao_foi_encontrado{
+    float: left;
+    width: 70%;
+    margin-left: 12%;
+    padding: 50px;
+    text-align: center;
+    margin-top: 85px;
+    color: rgba(0,0,0,0.7);
+    font: 25px Arial, Helvetica, sans-serif; 
+    background: rgba(255,255,255,0.5);
+    border-radius: 5px 5px 0px 0px;
+    -ms-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -o-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 10px 30px -10px;
+}
+
+.nao_foi_encontrado a{
+    background: #f1e57e;
+    padding: 15px; 
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #525251;
+    font: 20px Arial, Helvetica, sans-serif;
+}
+
+.nao_foi_encontrado a:hover{
+    color: #f1e57e;
+    background: #525251;
+}
+
+.perfils_encontrados{
+    float: left; 
+    width: 900px;
+    height: auto;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.perfils_encontrados img{float: left;}
+
+.perfils_encontrados h1{
+    float: left; 
+    width: 800px;
+    margin: 0px;
+    margin-top: 13px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.env_dados_encontrado{
+    float: left;
+    width: 720px;
+    height: 200px; 
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 107px;
+    background: rgba(255,255,255,0.7);
+    border-radius: 5px 5px 0px 0px;
+    -ms-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -o-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 10px 30px -10px;
+}
+
+.env_foto_busca{
+    float: left;
+    width: 170px;
+    height: 170px;
+    margin: 10px;
+    border: #fff 5px solid;
+    overflow: hidden;
+}
+
+.env_foto_busca img{
+    float: left; 
+    width: 170px;
+}
+
+.env_dados_encontrado h3{
+    float: left; 
+    width: 510px;
+    margin: 0px;
+    margin-top: 10px;
+    font-size: 24px;
+    color: rgba(58,58,58,1);
+}
+
+.env_dados_encontrado p{
+    float: left;
+    width: 510px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.env_dados_encontrado p span{
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(58,58,58,0.9);
+}
+
+.form_acessar_perfil{
+    float: left;
+    width: 508px;
+    margin-top: 9px;
+    text-align: right;
+}
+
+.form_acessar_perfil input[type="submit"]{
+    margin-top: 9px;
+    width: 120px;
+    height: 35px;
+    font: 18px Arial;
+    color: #525251;
+    background: #f4e45e;
+    border: 0px;
+}
+
+.form_acessar_perfil input[type="submit"]:hover{
+    color: #f1e57e;
+    background: #525251;
+}
+/*----------------------------------------------
+FIM ARTISTAS E COMPANHIAS ENCONTRADOS
+----------------------------------------------*/
+
+/*----------------------------------------------
+EDITAR FOTO PERFIL
+----------------------------------------------*/
+.env_foto_perfil{
+    float: left;
+    width: 670px;
+    height: auto;
+    margin-top: 80px;
+    margin-left: 170px;
+}
+
+.env_foto_perfil h1{
+    float: left;
+    width: 670px;
+    margin-top: 40px;
+    color: #313131;
+}
+
+.imagem_perfil_editar{
+    float: left;
+    width: 200px;
+    height: 200px;
+    border: #fff 5px solid;
+    overflow: hidden;
+}
+
+.imagem_perfil_editar img{
+    float: left;
+    width: 200px;
+}
+
+.form_foto_perfil{
+    float: right;
+    width: 450px;
+    height: 210px;
+}
+
+.form_foto_perfil input[type="file"]{
+    float: left;
+    margin-top: 70px;
+}
+
+.form_foto_perfil input[type="submit"]{
+    float: left;
+    margin-top: 12px;
+    margin-left: 4px;
+    width: 120px;
+    height: 40px;
+    font: 18px Arial;
+    color: #525251;
+    background: #f4e45e;
+    border: 0px;
+}
+
+.form_foto_perfil input[type="submit"]:hover{
+    background: #f1e57e;
+}
+/*----------------------------------------------
+FIM EDITAR FOTO PERFIL
+----------------------------------------------*/
+
+/*----------------------------------------------
+ADD FOTOS E DESCRIÇÃO NO PORTFOLIO
+----------------------------------------------*/
+.empurra_fotodesc{
+    margin-left: 100px;
+}
+
+.evl_add_foto_desc{
+    float: left; 
+    width: 1000px;
+    height: auto;
+    margin-top: 80px;
+}
+
+.fotm_add_foto_desc{
+    float: left; 
+    width: 1000px;
+    text-align: center;
+}
+
+.fotm_add_foto_desc h2{
+    color: #313131
+}
+
+.fotm_add_foto_desc input[type="text"]{
+    width: 400px;
+    height: 35px;
+    color: #313131;
+    padding-left:10px;
+    margin-bottom: 15px;
+}
+
+.fotm_add_foto_desc textarea{
+    color: #313131;
+    width: 400px;
+    padding-left:10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
+
+.fotm_add_foto_desc input[type="file"]{
+    margin-bottom: 15px;
+}
+
+.fotm_add_foto_desc input[type="submit"]{
+    width: 200px;
+    height: 40px;
+    font: 18px Arial;
+    color: #525251;
+    background: #f4e45e;
+    border: 0px;
+}
+
+.fotm_add_foto_desc input[type="submit"]:hover{
+    background: #f1e57e;
+}
+
+.hr_separador{
+    float: left; 
+    width: 1000px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+/*----------------------------------------------
+ADD FOTOS E DESCRIÇÃO NO PORTFOLIO
+----------------------------------------------*/
+
+/*----------------------------------------------
+EDITAR FOTOS E DESCRIÇÃO NO PORTFOLIO
+----------------------------------------------*/
+.tt_editar_foto_port{
+    float: left; 
+    width: 1000px;
+    margin-top: 100px;
+    text-align: center;
+    color:#313131;
+}
+
+.editar_foto_portfolio{
+    float: right;
+    width: 492px;
+    height: 256px;
+}
+
+.editar_foto_portfolio input[type="text"]{
+    float: left; 
+    width: 478px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.editar_foto_portfolio textarea{
+    float: left; 
+    width: 470px;
+    height: 160px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    margin-top:10px;
+}
+
+.editar_foto_portfolio img{
+    float: left;
+    margin-top: 17px;
+}
+
+.editar_foto_portfolio input[type="submit"]{
+    float: right; 
+    width: 200px;
+    height: 34px;
+    margin-top: 10px;
+    font: 18px Arial;
+    color: #525251;
+    background: #f4e45e;
+    border: 0px;
+}
+
+.editar_foto_portfolio input[type="submit"]:hover{
+    background: #f1e57e;
+}
+/*----------------------------------------------
+FIM EDITAR FOTOS E DESCRIÇÃO NO PORTFOLIO
+----------------------------------------------*/
+
+/*----------------------------------------------
+ALTERAR SENHA
+----------------------------------------------*/
+.form_alterarsenha{
+    float: left; 
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 200px;
+    text-align: center;
+}
+.form_alterarsenha input[type="password"]{
+    width: 300px;
+    height: 35px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    color: #313131;
+}
+
+.form_alterarsenha h1{
+    color: #313131;
+}
+
+.form_alterarsenha input[type="reset"],
+.form_alterarsenha input[type="submit"]{
+    width: 130px;
+    height: 34px;
+    margin-top: 10px;
+    font: 18px Arial;
+    border: 0px;
+}
+
+.form_alterarsenha input[type="submit"]{
+    color: #525251;
+    background: #f4e45e;
+}
+
+.form_alterarsenha input[type="submit"]:hover{background: #f1e57e;}
+
+.form_alterarsenha input[type="reset"]{
+    color: rgba(255,255,255,0.7);
+    background: #c0392b;
+}
+
+.form_alterarsenha input[type="reset"]:hover{background: #be4539;}
+/*----------------------------------------------
+ALTERAR SENHA
+----------------------------------------------*/
+
+/*----------------------------------------------
+DESEJA NOS DEIXAR
+----------------------------------------------*/
+.form_desativarConta{
+    float: left;
+    width: 1000px;
+    height: auto;
+    text-align: center;
+}
+
+.form_desativarConta h1{
+    float: left; 
+    width: 1000px;
+    margin-top: 150px;
+    text-align: center;
+    color: #313131;
+}
+
+.form_desativarConta input[type="submit"]{
+    float: left;
+    width: 130px;
+    height: 34px;
+    margin-top: 10px;
+    margin-left: 15px;
+    font: 18px Arial;
+    border: 0px;
+    color: #525251;
+    background: #f4e45e;
+}
+
+.form_desativarConta a{
+    float: left;
+    width: 130px;
+    margin-top: 10px;
+    margin-left: 365px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-right: 0px;
+    font: 18px Arial;
+    border: 0px;
+    color: rgba(255,255,255,0.7);
+    background: #c0392b;
+}
+/*----------------------------------------------
+FIM DESEJA NOS DEIXAR
+----------------------------------------------*/
+
+/*----------------------------------------------
+INSERIR E EDEITAR DADOS PESSOAIS
+----------------------------------------------*/
+.env_dados_pessoais{
+    float: left; 
+    width: 1000px;
+    height: auto;
+    margin-top: 80px;   
+}
+
+.env_dados_pessoais h1{
+    float: left; 
+    width: 100%;
+    text-align: center;
+}
+
+.form_edita_dados_pessoais,
+.form_insere_dados_pessoais{
+    float: left; 
+    width: 420px;
+    height: auto;
+    margin-left: 310px;
+}
+
+.form_edita_dados_pessoais span,
+.form_insere_dados_pessoais span{color: #e50717;}
+
+.form_edita_dados_pessoais label,
+.form_insere_dados_pessoais label{
+    float: left;
+    width: 414px;
+    margin-top: 10px;
+}
+
+.form_edita_dados_pessoais input[type="text"],
+.form_insere_dados_pessoais input[type="email"],
+.form_edita_dados_pessoais input[type="number"],
+.form_edita_dados_pessoais input[type="tel"],
+.form_edita_dados_pessoais select,
+.form_insere_dados_pessoais input[type="text"],
+.form_insere_dados_pessoais input[type="email"],
+.form_insere_dados_pessoais input[type="number"],
+.form_insere_dados_pessoais input[type="tel"],
+.form_insere_dados_pessoais select{
+    float: left; 
+    color: #313131;;
+    width: 400px;
+    height: 35px;
+    padding-left: 10px;
+}
+
+.form_edita_dados_pessoais select,
+.form_insere_dados_pessoais select{height: 41px;}
+
+#l_rg,#l_cpf,#l_drt,#l_categoria,#l_datanasc,#l_pais,#l_pais_comp,#l_estado,#l_estado_comp,#l_cidade,#l_cidade_comp,
+#l_telefone,#l_telefone_comp,#l_celular,#l_celular_comp,#l_numero,#l_complemento, #l_ins_esta,#l_cnpj{width: 197px;}/*Label*/
+#l_cpf,#l_categoria,#l_pais,#l_cidade,#l_celular,#l_complemento,#l_cnpj,#l_estado_comp,#l_telefone_comp{margin-left: 20px;}/*Label com margem de 20px;*/
+#rg,#cpf,#drt,#datanasc,#telefone,#celular,#numero,#complemento,#ins_esta,#cnpj,#pais_comp,#cidade_comp,#celular_comp{width: 183px;}/*tamanho dos inputs*/
+#categoria,#pais,#estado,#cidade,#estado_comp,#telefone_comp{width: 197px;}/*tamanho dos select*/
+
+.l_pais,.l_cidade,.l_celular{margin-left: 0px;}
+
+.form_editar_experiencias_profissionais input[type="submit"],/*EXPERIÊNCIA*/
+.form_experiencias_profissionais input[type="submit"],/*EXPERIÊNCIA*/
+.form_experiencias_profissionais input[type="reset"],/*EXPERIÊNCIA*/
+.form_edita_formacao_profissionais input[type="submit"],/*FORMAÇÃO*/
+.form_formacao_profissionais input[type="reset"],/*FORMAÇÃO*/
+.form_formacao_profissionais input[type="submit"],/*FORMAÇÃO*/
+.form_edita_dados_pessoais input[type="reset"],
+.form_edita_dados_pessoais input[type="submit"],
+.form_insere_dados_pessoais input[type="reset"],
+.form_insere_dados_pessoais input[type="submit"]{
+    float: left;
+    width: 150px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    font: 18px Arial;
+    border: 0px;
+}
+
+.form_experiencias_profissionais input[type="reset"],/*EXPERIÊNCIA*/
+.form_formacao_profissionais input[type="reset"],/*FORMAÇÃO*/
+.form_insere_dados_pessoais input[type="reset"]{
+    color: rgba(255,255,255,0.7);
+    background: #c0392b;
+}
+
+.form_experiencias_profissionais input[type="reset"]:hover,/*EXPERIÊNCIA*/
+.form_formacao_profissionais input[type="reset"]:hover,/*FORMAÇÃO*/
+.form_edita_dados_pessoais input[type="reset"]:hover,
+.form_insere_dados_pessoais input[type="reset"]:hover{
+    color: rgba(255,255,255,0.9);
+    background: #c44639;
+}
+
+
+.form_editar_experiencias_profissionais input[type="submit"],/*EXPERIÊNCIA*/
+.form_experiencias_profissionais input[type="submit"],/*EXPERIÊNCIA*/
+.form_edita_formacao_profissionais input[type="submit"],/*FORMAÇÃO*/
+.form_formacao_profissionais input[type="submit"],/*FORMAÇÃO*/
+.form_edita_dados_pessoais input[type="submit"],
+.form_insere_dados_pessoais input[type="submit"]{
+    color: #525251;
+    background: #f4e45e;
+}
+
+.form_editar_experiencias_profissionais input[type="submit"]:hover,/*EXPERIÊNCIA*/
+.form_experiencias_profissionais input[type="submit"]:hover,/*EXPERIÊNCIA*/
+.form_edita_formacao_profissionais input[type="submit"]:hover,/*FORMAÇÃO*/
+.form_formacao_profissionais input[type="submit"]:hover,/*FORMAÇÃO*/
+.form_edita_dados_pessoais  input[type="submit"]:hover,
+.form_insere_dados_pessoais  input[type="submit"]:hover{
+    background: #f4e77b;
+}
+/*----------------------------------------------
+FIM INSERIR E EDEITAR DADOS PESSOAIS
+----------------------------------------------*/
+
+/*----------------------------------------------
+CADASTRA E EDITA A FORMAÇÃO e EXPERIÊNCIAS
+----------------------------------------------*/
+.env_experiencias,
+.env_formacao{
+    float: left; 
+    width: 1000px; 
+    height: auto;
+    margin-top: 80px;
+}
+
+.env_experiencias,
+.env_formacao h1{
+    color: #1e1e1e;
+    width: 1000px;
+    text-align: center;
+    color: #525251;
+    margin-bottom: 0px;
+}
+
+.form_editar_experiencias_profissionais,
+.form_experiencias_profissionais,
+.form_edita_formacao_profissionais,
+.form_formacao_profissionais{
+    float: left; 
+    width: 425px;
+    height: auto;
+    margin-left: 285px;
+    margin-top: 20px;
+}
+
+.form_editar_experiencias_profissionais span,
+.form_experiencias_profissionais span,
+.form_edita_formacao_profissionais span,
+.form_formacao_profissionais span{color: #e50717;}
+
+.form_editar_experiencias_profissionais img,
+.form_edita_formacao_profissionais img,
+.form_formacao_profissionais img{
+    float: left;
+    margin-top: 20px;
+    margin-left: 25px;
+     cursor: pointer;
+}
+
+.form_editar_experiencias_profissionais input[type="text"],
+.form_experiencias_profissionais input[type="text"],
+.form_edita_formacao_profissionais input[type="text"],
+.form_formacao_profissionais input[type="text"]{
+    width: 400px;
+    height: 35px;
+    padding-left: 10px;
+    color: #313131;
+}
+
+.form_editar_experiencias_profissionais label,
+.form_experiencias_profissionais label,
+.form_edita_formacao_profissionais label,
+.form_formacao_profissionais label{
+    float: left;
+    width: 420px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+#l_dataini,#l_datafim{
+    width: 200px;
+}
+
+#dataini,#datafim{
+    width: 185px;
+}
+
+#l_datafim{margin-left: 14px;}
+
+.form_editar_experiencias_profissionais textarea,
+.form_experiencias_profissionais  textarea,
+.form_edita_formacao_profissionais textarea,
+.form_formacao_profissionais textarea{
+    width: 392px;
+    height: 150px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #313131;
+}
+
+/*A ESTILIZAÇÃO DO INPUT SUBMIT ESTÁ JUNTO AOS INPUTS DO INSERIR E EDITAR DADOS PESSOAIS*/
+
+.bt_voltar{
+    float: left;
+    width: 150px;
+    padding-top:7px;
+    padding-bottom:7px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font: 18px Arial;
+    color: rgba(255,255,255,0.7);
+    background: #c0392b;
+    text-align: center;
+}
+.bt_voltar:hover{
+    color: rgba(255,255,255,0.9);
+    background: #c44639;
+}
+
+.hr_ed_formacao{
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+/*----------------------------------------------
+FIM CADASTRA E EDITA A FORMAÇÃO e EXPERIÊNCIAS
+----------------------------------------------*/
+
+/*----------------------------------------------
+RODAPE
+----------------------------------------------*/
+.empurra_rodape{
+    float: left; width: 1000px; height: 50px;
+}
+
+.rodape{
+    position: absolute;
+    float: left;
+    width: 1000px;
+    height: 50px;
+    margin-top: 20px;    
+    background: #1e1e1e;
+    padding-top:0px;
+    bottom: 0px;    
+    border-radius: 0px 40px 40px 40px;
+    -ms-border-radius: 40px 40px 40px 40px;
+    -webkit-border-radius: 0px 0px 40px 40px;
+    -o-border-radius: 40px 40px 40px 40px;
+    -moz-border-radius: 40px 40px 40px 40px;
+}
+
+.rodape span{
+    float: left;
+    width: 100%;
+    margin-top: 17px;
+    text-align: center;
+    color: rgba(255,255,255,0.8);
+}
+/*----------------------------------------------
+FIM RODAPE
+----------------------------------------------*/
